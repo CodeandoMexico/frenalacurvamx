@@ -7,6 +7,14 @@ Section Styles
     position: relative;
     overflow-x: hidden !important;
 
+    a {
+        color: $primary;
+    }
+
+    a:hover {
+        color: $blue-grey;
+    }
+
     &:focus {
         outline: none !important;
     }

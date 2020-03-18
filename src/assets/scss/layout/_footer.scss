@@ -6,13 +6,21 @@ footer.footer-dark {
     background: $blue-grey;
     color: $white;
 
+    a {
+        color: $primary;
+    }
+
+    a:hover {
+        color: $light-grey;
+    }
+
     .columns {
         margin-top: 35px;
     }
 
     .footer-logo {
         img {
-            height: 40px;
+            height: 80px;
         }
     }
 

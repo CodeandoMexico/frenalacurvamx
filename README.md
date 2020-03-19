@@ -5,7 +5,7 @@
 </p>
 
 # Frena La Curva México - Landing page
-![]()
+![demo](demo.png)
 
 Este repositorio contiene la landing page para México trabajando con <frenalacurva.net>.
 

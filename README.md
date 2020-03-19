@@ -44,5 +44,4 @@ Para utilizar esta plantilla, tu computadora necesita:
 ### Atribuciones
 
 - Link al repo/plantilla original: https://github.com/cssninjaStudio/fresh
-- Si tienes preguntas, pueddes escribir a <rodo@codeandomexico.org>
-Si tienes preguntas
+- Si tienes preguntas, puedes escribir a <rodo@codeandomexico.org>

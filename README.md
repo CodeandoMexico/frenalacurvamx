@@ -30,6 +30,7 @@ Para utilizar esta plantilla, tu computadora necesita:
 - Instala los paquetes de node: `npm install`
 - Corre `gulp dev`
 - Tu sitio está visible en el URL: http://localhost:3000
+- **Nota:** Modifica sólo los archivos en la carpeta `src/`
 
 
 ### Deployment en gh-pages:
@@ -39,3 +40,9 @@ Para utilizar esta plantilla, tu computadora necesita:
 - Haz un push de tus cambios al repositori
 - En la sección de settings de tu repositorio, ve a la opción de GitHub Pages y selección como Source la carpeta `docs/`
 - ¡Listo! Tu landing quedará servida en `<usario-u-organizacio>.github.io/<repositorio>`
+
+### Atribuciones
+
+- Link al repo/plantilla original: https://github.com/cssninjaStudio/fresh
+- Si tienes preguntas, pueddes escribir a <rodo@codeandomexico.org>
+Si tienes preguntas

@@ -33,6 +33,22 @@ Para utilizar esta plantilla, tu computadora necesita:
 - **Nota:** Modifica sólo los archivos en la carpeta `src/`
 
 
+### Desarrollo con Docker
+
+Para hacer y probar cambios locales en el contenido, estilos, imagenes, etc. puedes usar un contenedor docker.
+
+- `docker build . -t frenalacurva:dev`
+- `docker run --rm -it --init -p 3000:3000 -v $PWD/src/:/app/src frenalacurva:dev`
+- Tu sitio está visible en el URL: http://localhost:3000
+
+
+#### Usar docker-compose (1.20+)
+
+- `docker-compose up`
+- Tu sitio está visible en el URL: http://localhost:3000
+
+> Si necesitas cambiar algun archivo fuera de `./src` solo vuelve a ejectuar ambos comandos.
+
 ### Deployment en gh-pages:
 
 - Una vez hayas concluido el desarrollo, deberás cambiar la carpeta `dist/` que se generó por `docs/`: <br>

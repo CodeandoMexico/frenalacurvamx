@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  webapp:
+    image: frenalacurva:dev
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - "$PWD/src/:/app/src:rw"

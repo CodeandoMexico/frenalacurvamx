@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    font-family: "Raleway";
 }
 
 //Preloader
@@ -76,6 +77,20 @@ body {
 }
 
 //Helpers
+.initiatives {
+    padding: 50px;
+    font-family: "Raleway";
+
+    .title {
+        font-family: $font;
+        color: $blue-grey;
+    }
+
+    .subtitle {
+        font-family: "Raleway";
+    }
+}
+
 .ext-pad {
     padding: 20px;
 }
@@ -181,6 +196,10 @@ body {
 
 .maxw-125 {
     max-width: 125px;
+}
+
+.maxw-img {
+    max-width: 150px;
 }
 
 .bg-lightpurple {

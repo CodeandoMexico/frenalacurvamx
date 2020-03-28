@@ -89,6 +89,10 @@ body {
     .subtitle {
         font-family: "Raleway";
     }
+
+    &.has-bg-blue-grey {
+        background-color: $dark-grey;
+    }
 }
 
 .ext-pad {

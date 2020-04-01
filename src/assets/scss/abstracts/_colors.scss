@@ -7,7 +7,7 @@ $smoke-white: #fcfcfc;
 $grey-white: #f2f2f2;
 
 $primary: #E83F4E;
-$secondary: #E83F4E; //#4FC1EA;
+$secondary: #E83F4E; //#4FC1EA; FIXME: $orimary and secondary are the same
 $accent: #00efb7;
 
 $fade-grey: #ededed;
@@ -27,6 +27,7 @@ $dark-grey: #344258;
 $border-grey: #ccc;
 $muted-grey: rgb(99, 111, 128);
 $section-grey: #fbfbfb;
+$section-red: $primary;
 
 //Heading font
 $font: 'Montserrat', sans-serif !important;

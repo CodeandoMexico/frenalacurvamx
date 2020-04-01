@@ -4,207 +4,215 @@ Section Styles
 
 //Sections
 .section {
-    position: relative;
-    overflow-x: hidden !important;
+  position: relative;
+  overflow-x: hidden !important;
 
-    a {
-        color: $primary;
-    }
+  a {
+    color: $primary;
+  }
 
-    a:hover {
-        color: $blue-grey;
-    }
+  a:hover {
+    color: $blue-grey;
+  }
 
-    &:focus {
-        outline: none !important;
-    }
+  &:focus {
+    outline: none !important;
+  }
 
-    &.section-light-grey {
-        background-color: $light-grey;
-    }
+  &.section-light-grey {
+    background-color: $light-grey;
+  }
 
-    &.section-feature-grey {
-        background-color: $section-grey;
-    }
+  &.section-feature-gray {
+    background-color: $section-grey;
+  }
 
-    &.section-secondary {
-        background-color: $secondary;
-    }
+  &.section-feature-red {
+    background-color: $section-red;
+  }
 
-    &.section-half {
-        height: 75vh !important;
-    }
+  &.section-secondary {
+    background-color: $secondary;
+  }
 
-    &.has-background-image {
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+  &.section-half {
+    height: 75vh !important;
+  }
 
-    .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
-    }
+  &.has-background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-    .subtitle {
-        &.is-muted {
-            color: $muted-grey;
-        }
-    }
+  .title, .subtitle {
+    font-family: 'Open Sans', sans-serif;
+  }
 
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        z-index: 0;
+  .subtitle {
+    &.is-muted {
+      color: $muted-grey;
     }
+  }
+
+  .white-text {
+    color: $white !important;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
 }
 
 //Titles
 .title-wrapper {
-    max-width: 500px;
-    margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
 
-    .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
-    }
+  .title, .subtitle {
+    font-family: 'Open Sans', sans-serif;
+  }
 
-    .subtitle {
-        &.is-muted {
-            color: $muted-grey;
-        }
+  .subtitle {
+    &.is-muted {
+        color: $muted-grey;
     }
+  }
 }
 
 //Divider
 .divider {
-    height: 3px;
-    border-radius: 50px;
-    background: $secondary;
-    width: 60px;
+  height: 3px;
+  border-radius: 50px;
+  background: $secondary;
+  width: 60px;
 
-    &.is-centered {
-        margin: 0 auto;
-    }
+  &.is-centered {
+    margin: 0 auto;
+  }
 }
 
 //Wrapper
 .content-wrapper {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 //Side feqtures
 .side-feature {
-    h3 {
-        padding-bottom: 16px;
-    }
+  h3 {
+    padding-bottom: 16px;
+  }
 }
 
 //Icon box
 .feature-icon {
-    padding: 16px 0;
-    cursor: pointer;
+  padding: 16px 0;
+  cursor: pointer;
 
-    &:hover {
-        .icon-wrap {
-            transform: translateY(-5px);
-            box-shadow: $light-shadow;
-
-            ion-icon {
-                color: $secondary;
-            }
-        }
-    }
-
+  &:hover {
     .icon-wrap {
-        height: 60px;
-        width: 60px;
-        border-radius: 50%;
-        border: 1px solid darken($fade-grey, 4%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto 10px auto;
-        transition: all .3s;
+      transform: translateY(-5px);
+      box-shadow: $light-shadow;
 
-        ion-icon {
-            font-size: 110px;
-            color: lighten($blue-grey, 18%);
-            transition: all .3s;
-        }
+      ion-icon {
+        color: $secondary;
+      }
     }
+  }
 
-    h4 {
-        font-family: $font;
-        font-weight: 600;
-        color: $blue-grey;
-    }
+  .icon-wrap {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid darken($fade-grey, 4%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    transition: all .3s;
 
-    p {
-        color: $muted-grey;
+    ion-icon {
+      font-size: 110px;
+      color: lighten($blue-grey, 18%);
+      transition: all .3s;
     }
+  }
+
+  h4 {
+    font-family: $font;
+    font-weight: 600;
+    color: $blue-grey;
+  }
+
+  p {
+    color: $muted-grey;
+  }
 }
 
 //Pricing
 .pricing-wrap {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 
 .feature-card {
-    &.is-pricing {
-        border: 1px solid darken($fade-grey, 4%);
-        border-radius: 6px;
-        box-shadow: $light-shadow;
-        margin: 8px;
-        padding: 20px;
-        height: 400px;
+  &.is-pricing {
+    border: 1px solid darken($fade-grey, 4%);
+    border-radius: 6px;
+    box-shadow: $light-shadow;
+    margin: 8px;
+    padding: 20px;
+    height: 400px;
 
-        .plan-name {
-            font-family: $font;
-            font-weight: 600;
-            font-size: 1.4rem;
-            color: $blue-grey;
-        }
-
-        img {
-            display: block;
-            max-width: 160px;
-            margin: 0 auto 0 auto;
-        }
-
-        .price {
-            position: relative;
-            font-family: $font;
-            font-weight: 700;
-            font-size: 2.4rem;
-            color: $blue-grey;
-
-            &:before {
-                content: '$';
-                position: relative;
-                top: -12px;
-                left: 5px;
-                font-size: 1.2rem;
-            }
-
-            &:after {
-                content: 'per month';
-                position: absolute;
-                bottom: -16px;
-                left: 0;
-                right: 0;
-                margin: 0 auto;
-                font-size: .9rem;
-                font-weight: 400;
-                color: $muted-grey;
-            }
-        }
-
-        p {
-            padding: 24px 0 16px 0;
-            color: $muted-grey;
-        }
+    .plan-name {
+      font-family: $font;
+      font-weight: 600;
+      font-size: 1.4rem;
+      color: $blue-grey;
     }
+
+    img {
+      display: block;
+      max-width: 160px;
+      margin: 0 auto 0 auto;
+    }
+
+    .price {
+      position: relative;
+      font-family: $font;
+      font-weight: 700;
+      font-size: 2.4rem;
+      color: $blue-grey;
+
+      &:before {
+        content: '$';
+        position: relative;
+        top: -12px;
+        left: 5px;
+        font-size: 1.2rem;
+      }
+
+      &:after {
+        content: 'per month';
+        position: absolute;
+        bottom: -16px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: .9rem;
+        font-weight: 400;
+        color: $muted-grey;
+      }
+    }
+
+    p {
+      padding: 24px 0 16px 0;
+      color: $muted-grey;
+    }
+  }
 }

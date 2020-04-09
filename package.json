@@ -11,7 +11,7 @@
     "url": "https://github.com/cssninjaStudio"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
+    "@babel/core": "^7.9.0",
     "ansi-colors": "^4.1.1",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
@@ -23,7 +23,7 @@
     "gulp": "^4.0.2",
     "gulp-accessibility": "^3.1.1",
     "gulp-autoprefixer": "^6.1.0",
-    "gulp-babel": "^8.0.0",
+    "gulp-babel": "^7.0.0",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-concat": "^2.6.1",
     "gulp-html-replace": "^1.6.2",
@@ -40,19 +40,23 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0",
     "gulp-uglify-es": "^1.0.4",
-    "jshint": "^2.10.1",
+    "jshint": "^2.11.0",
     "node-bourbon": "^4.2.8",
     "panini": "^1.6.3",
     "run-sequence": "^2.2.1",
     "zoom-vanilla.js": "^2.0.6"
   },
   "dependencies": {
-    "bulma": "^0.8.0",
-    "jquery": "^3.4.1",
+    "bulma": "^0.8.1",
     "bulma-extensions": "^6.2.7",
-    "feather-icons": "^4.7.0",
+    "express": "^4.17.1",
+    "feather-icons": "^4.28.0",
+    "jquery": "^3.4.1",
     "jquery-waypoints": "^2.0.5",
     "jquery.counterup": "^2.1.0",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6",
+    "sass-lint": "^1.13.1",
     "scrollreveal": "^3.4.0",
     "slick-carousel": "^1.8.1"
   }

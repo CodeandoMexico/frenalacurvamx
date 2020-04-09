@@ -61,3 +61,4 @@ Para hacer y probar cambios locales en el contenido, estilos, imagenes, etc. pue
 
 - Link al repo/plantilla original: https://github.com/cssninjaStudio/fresh
 - Si tienes preguntas, puedes escribir a <rodo@codeandomexico.org>
+- Gracias a la comunidad es que este repositorio se mantiene vivo

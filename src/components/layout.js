@@ -8,9 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet"
 
 import Header from "./header"
+import Footer from "./footer/footer"
+
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -27,12 +29,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap"
+        />
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer>footer</footer>
+        <Footer />
       </div>
     </>
   )

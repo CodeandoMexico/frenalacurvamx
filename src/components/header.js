@@ -3,10 +3,12 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import Flags from './flags/flags'
+import Navbar from './navbar'
 
 const Header = ({ siteTitle }) => (
     <header>
         <Flags />
+        <Navbar />
         <div>
             <h1>
                 <Link to="/" >

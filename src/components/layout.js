@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap"
         />
       </Helmet>
-      <Preloader />
+      {/* <Preloader /> */}
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>

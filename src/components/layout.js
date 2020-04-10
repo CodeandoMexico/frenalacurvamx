@@ -15,6 +15,7 @@ import Footer from "./footer/footer"
 import Preloader from "./preloader"
 
 import "./layout.css"
+import BackToTop from "./backToTop"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -40,6 +41,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <Footer />
+        <BackToTop />
       </div>
     </>
   )

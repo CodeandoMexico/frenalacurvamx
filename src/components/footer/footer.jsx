@@ -1,12 +1,14 @@
 import React from "react"
 
+import logoImg from '../../images/logos/logo_horizontal_blanco.png'
+
 const Footer = () => (
   <footer className="footer footer-dark">
     <div className="container">
       <div className="columns">
         <div className="column">
           <div className="footer-logo">
-            <img src="assets/img/logos/logo_horizontal_blanco.png" />
+            <img src={logoImg} alt="logo frena la curva méxico" />
           </div>
         </div>
         <div className="column">

@@ -6,10 +6,12 @@ import Flags from './flags/flags'
 import Navbar from './navbar'
 
 const Header = ({ siteTitle }) => (
-    <header>
-        <Flags />
-        <Navbar />
-    </header>
+    <div className="container">
+        <header>
+            <Flags />
+            <Navbar />
+        </header>
+    </div>
 )
 
 Header.propTypes = {

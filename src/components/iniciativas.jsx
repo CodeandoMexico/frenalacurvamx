@@ -1,5 +1,10 @@
 import React from 'react'
 
+import iniciativa1 from '../images/illustrations/iniciativas/1.png'
+import iniciativa2 from '../images/illustrations/iniciativas/2.png'
+import iniciativa3 from '../images/illustrations/iniciativas/3.png'
+import iniciativa4 from '../images/illustrations/iniciativas/4.png'
+
 const Iniciativas = () => (
     <section className="section mb-20 initiatives">
         <div className="container">
@@ -12,7 +17,7 @@ const Iniciativas = () => (
             <div className="columns mt-60 has-text-centered desktop">
                 <div className="column is-3 is-green">
                     <a target="_blank" href="https://mx.frenalacurva.net/c/cuidados" rel="noopener noreferrer">
-                        <img src="assets/img/illustrations/iniciativas/1.png" alt="Cuidados" className="maxw-img" />
+                        <img src={iniciativa1} alt="Cuidados" className="maxw-img" />
                         <p className="subtitle is-5 is-bold is-lightpurple">
                             Cuidados
                         </p>
@@ -20,7 +25,7 @@ const Iniciativas = () => (
                 </div>
                 <div className="column is-3 is-green">
                     <a target="_blank" href="https://mx.frenalacurva.net/c/que-puedo-hacer-durante-la-cuarentena" rel="noopener noreferrer">
-                        <img src="assets/img/illustrations/iniciativas/2.png" alt="¿Qué puedo hacer durante la cuarentena?" className="maxw-img" />
+                        <img src={iniciativa2} alt="¿Qué puedo hacer durante la cuarentena?" className="maxw-img" />
                         <p className="subtitle is-5 is-bold is-green">
                             ¿Qué puedo hacer durante la cuarentena?
                         </p>
@@ -28,7 +33,7 @@ const Iniciativas = () => (
                 </div>
                 <div className="column is-3 is-green">
                     <a target="_blank" href="https://mx.frenalacurva.net/c/trabajo" rel="noopener noreferrer">
-                        <img src="assets/img/illustrations/iniciativas/3.png" alt="Trabajos" className="maxw-img" />
+                        <img src={iniciativa3} alt="Trabajos" className="maxw-img" />
                         <p className="subtitle is-5 is-bold is-lightgreen">
                             Trabajos
                         </p>
@@ -36,7 +41,7 @@ const Iniciativas = () => (
                 </div>
                 <div className="column is-3 is-green">
                     <a target="_blank" href="https://mx.frenalacurva.net/c/educacion-para-aprender" rel="noopener noreferrer">
-                        <img src="assets/img/illustrations/iniciativas/4.png" alt="Educación / Para aprender" className="maxw-img" />
+                        <img src={iniciativa4} alt="Educación / Para aprender" className="maxw-img" />
                         <p className="subtitle is-5 is-bold raised is-orange">
                             Educación / Para aprender
                         </p>

@@ -1,5 +1,9 @@
 import React from 'react'
 
+import logoAnimalPolitico from '../images/logos/animal_politico.svg'
+import covid19Casos from '../images/illustrations/COVID-19_Outbreak_Cases_in_Mexico.wikipedia.svg'
+import gobMXLogo from '../images/logos/gob_mx.svg'
+
 const MediosOficiales = () => (
     <section className="section has-bg-blue-grey section-feature-grey initiatives">
         <div className="container">
@@ -14,7 +18,7 @@ const MediosOficiales = () => (
                 <div className="column mb-20">
                     <a target="_blank" title="Animal Político, noticias verificadas" href="https://www.animalpolitico.com/noticias-coronavirus-covid-2019-verificacion/" rel="noopener noreferrer">
                         <br />
-                        <img alt="Logotipo de Animal Político" style={{ maxHeight: '100px' }} src="assets/img/logos/animal_politico.svg" />
+                        <img alt="Logotipo de Animal Político" style={{ maxHeight: '100px' }} src={logoAnimalPolitico} />
                         <br /><br />
                         <h4 className="subtitle is-extra-padded has-text-light is-3 has-text-centered">Animal Político</h4>
                         <p className="has-text-light has-text-centered is-4">Información útil y verificada sobre el Coronavirus en México.</p>
@@ -22,7 +26,7 @@ const MediosOficiales = () => (
                 </div>
                 <div className="column mb-20">
                     <a target="_blank" title="Mapa en tiempo real del coronavirus en México" href="https://covid19enmexico.com/" rel="noopener noreferrer">
-                        <img alt="Mapa del coronavirus en México" style={{ maxHeight: '128px' }} src="assets/img/illustrations/COVID-19_Outbreak_Cases_in_Mexico.wikipedia.svg" />
+                        <img alt="Mapa del coronavirus en México" style={{ maxHeight: '128px' }} src={covid19Casos} />
                         <h4 className="subtitle is-extra-padded has-text-light is-3 has-text-centered">Mapa de Casos de Coronavirus</h4>
                         <p className="has-text-light has-text-centered is-4">Actualización en tiempo real de los casos en México.
                         </p>
@@ -31,7 +35,7 @@ const MediosOficiales = () => (
                 <div className="column mb-20">
                     <a target="_blank" title="Información oficial del Gobierno de México" href="https://coronavirus.gob.mx/" rel="noopener noreferrer">
                         <br />
-                        <img alt="Logotipo del Gobierno de México" style={{ maxHeight: '100px' }} src="assets/img/logos/gob_mx.svg" />
+                        <img alt="Logotipo del Gobierno de México" style={{ maxHeight: '100px' }} src={gobMXLogo} />
                         <br /><br />
                         <h4 className="subtitle is-extra-padded has-text-light is-3 has-text-centered">Gobierno de México</h4>
                         <p className="has-text-light has-text-centered is-4">Sitio oficial del Coronavirus en México.</p>

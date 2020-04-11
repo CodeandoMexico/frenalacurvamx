@@ -1,6 +1,9 @@
 import React from 'react'
 
 import logoImg from '../images/logos/logo_horizontal.png'
+import fbImg from '../images/icons/ico-fb.png'
+import twImg from '../images/icons/ico-tw.png'
+import igImg from '../images/icons/ico-insta.png'
 
 const Navbar = () => (
     <>
@@ -46,13 +49,13 @@ const Navbar = () => (
 
                     <div className="navbar-end">
                         <a href="https://www.facebook.com/frenalacurvamx/" target="_blank" className="navbar-item is-secondary" rel="noopener noreferrer">
-                            <img src="icons/ico-fb.png" width="20" alt="logo facebook" />
+                            <img src={fbImg} width="20" alt="logo facebook" />
                         </a>
                         <a href="https://twitter.com/frenalacurvamx/" target="_blank" className="navbar-item is-secondary" rel="noopener noreferrer">
-                            <img src="icons/ico-tw.png" width="20" alt="logo twitter" />
+                            <img src={twImg} width="20" alt="logo twitter" />
                         </a>
                         <a href="https://www.instagram.com/frenalacurvamx/" target="_blank" className="navbar-item is-secondary" rel="noopener noreferrer">
-                            <img src="icons/ico-insta.png" width="20" alt="logo instagram" />
+                            <img src={igImg} width="20" alt="logo instagram" />
                         </a>
                         {/* <!-- <a href="#" className="navbar-item is-secondary modal-trigger" data-modal="auth-modal">
                             Log in
@@ -113,13 +116,13 @@ const Navbar = () => (
 
                     <div className="navbar-end">
                         <a href="https://www.facebook.com/frenalacurvamx/" target="_blank" className="navbar-item is-secondary"  rel="noopener noreferrer">
-                            <img src="icons/ico-fb.png" width="20" alt="logo facebook" />
+                            <img src={fbImg} width="20" alt="logo facebook" />
                         </a>
                         <a href="https://twitter.com/frenalacurvamx" target="_blank" className="navbar-item is-secondary" rel="noopener noreferrer">
-                            <img src="icons/ico-tw.png" width="20" alt="logo twitter" />
+                            <img src={twImg} width="20" alt="logo twitter" />
                         </a>
                         <a href="https://www.instagram.com/frenalacurvamx/" target="_blank" className="navbar-item is-secondary" rel="noopener noreferrer">
-                            <img src="icons/ico-insta.png" width="20" alt="logo instagram" />
+                            <img src={igImg} width="20" alt="logo instagram" />
                         </a>
                         {/* <!-- <a href="#" className="navbar-item is-secondary modal-trigger" data-modal="auth-modal">
                             Log in

@@ -1,6 +1,9 @@
 import React from "react"
 
 import logoImg from '../../images/logos/logo_horizontal_blanco.png'
+import fbImg from '../../images/icons/ico-fb.png'
+import twImg from '../../images/icons/ico-tw.png'
+import igImg from '../../images/icons/ico-insta.png'
 
 const Footer = () => (
     <footer className="footer footer-dark">
@@ -34,17 +37,17 @@ const Footer = () => (
                                 <div className="level-left">
                                     <a className="level-item" href="https://www.facebook.com/frenalacurvamx/">
                                         <span className="icon">
-                                            <img src="icons/ico-fb.png" width="20" alt="logo facebook" />
+                                            <img src={fbImg} width="20" alt="logo facebook" />
                                         </span>
                                     </a>
                                     <a className="level-item" href="https://twitter.com/frenalacurvamx">
                                         <span className="icon">
-                                            <img src="icons/ico-tw.png" width="20" alt="logo twitter" />
+                                            <img src={twImg} width="20" alt="logo twitter" />
                                         </span>
                                     </a>
                                     <a className="level-item" href="https://www.instagram.com/frenalacurvamx/">
                                         <span className="icon">
-                                            <img src="icons/ico-insta.png" width="20" alt="logo instagram" />
+                                            <img src={igImg} width="20" alt="logo instagram" />
                                         </span>
                                     </a>
                                 </div>

@@ -13,7 +13,7 @@ import argentinaFlag from '../../images/icons/argentina.png'
 import peruFlag from '../../images/icons/peru.jpg'
 
 const Flags = () => (
-    <nav className="navbar is-fresh is-transparent no-shadow" role="navigation" ariaLabel="main navigation">
+    <nav className="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
         <div className="container">
             <div className="navbar-end is-pulled-right">
                 <div className="navbar-brand navbar-flags">

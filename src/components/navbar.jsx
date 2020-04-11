@@ -4,7 +4,7 @@ import logoImg from '../images/logos/logo_horizontal.png'
 
 const Navbar = () => (
     <>
-        <nav className="navbar is-fresh is-transparent no-shadow" role="navigation" ariaLabel="main navigation">
+        <nav className="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
             <div className="container">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/">
@@ -22,10 +22,10 @@ const Navbar = () => (
                         </div>
                     </a> */}
 
-                    <button className="navbar-burger" ariaLabel="menu" ariaExpanded="false" data-target="navbar-menu">
-                        <span ariaHidden="true" />
-                        <span ariaHidden="true" />
-                        <span ariaHidden="true" />
+                    <button className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+                        <span aria-hidden="true" />
+                        <span aria-hidden="true" />
+                        <span aria-hidden="true" />
                     </button>
                 </div>
 
@@ -71,7 +71,7 @@ const Navbar = () => (
                 </div>
             </div>
         </nav>
-        <nav id="navbar-clone" className="navbar is-fresh is-transparent" role="navigation" ariaLabel="main navigation">
+        <nav id="navbar-clone" className="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
             <div className="container">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/">
@@ -89,10 +89,10 @@ const Navbar = () => (
                         </div>
                     </a> --> */}
 
-                    <button className="navbar-burger" ariaLabel="menu" ariaExpanded="false" data-target="cloned-navbar-menu">
-                        <span ariaHidden="true"></span>
-                        <span ariaHidden="true"></span>
-                        <span ariaHidden="true"></span>
+                    <button className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
                     </button>
                 </div>
 

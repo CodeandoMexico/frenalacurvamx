@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import useEventListener from '../hooks/useEventListener'
+import useEventListener from '../../hooks/useEventListener'
+
+import './backToTop.scss'
 
 const BackToTop = () => {
 

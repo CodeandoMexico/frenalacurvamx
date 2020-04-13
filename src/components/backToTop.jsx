@@ -1,9 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
+import useEventListener from '../hooks/useEventListener'
 
-const BackToTop = () => (
-    <div id="backtotop">
-        <a href="#" />
-    </div>
-)
+const BackToTop = () => {
+
+    const displayThreshold = 600
+
+    const [isVisible, setVisibility] = useState(false)
+
+    const scrollHandler = () => setVisibility(window.scrollY > displayThreshold)
+
+    useEventListener(document, 'scroll', scrollHandler)
+
+    const handleOnClick = e => {
+        e.preventDefault()
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    return (
+        <div id="backtotop" className={ isVisible ? 'visible' : ''} onClick={handleOnClick}>
+            <a href="#" />
+        </div>
+    )
+}
 
 export default BackToTop

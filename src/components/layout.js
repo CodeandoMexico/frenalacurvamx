@@ -14,7 +14,7 @@ import Header from "./header"
 import Footer from "./footer/footer"
 // import Preloader from "./preloader"
 
-import BackToTop from "./backToTop"
+import BackToTop from "./backToTop/backToTop"
 
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-export default function useEventListener(element, event, handler) {
+export default function useEventListener(event, handler, element = global) {
 
     useEffect(
         () => {

@@ -11,7 +11,7 @@ const BackToTop = () => {
 
     const scrollHandler = () => setVisibility(window.scrollY > displayThreshold)
 
-    useEventListener(document, 'scroll', scrollHandler)
+    useEventListener('scroll', scrollHandler)
 
     const handleOnClick = e => {
         e.preventDefault()

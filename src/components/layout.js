@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap"
                 />
-
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
                 {/* Global site tag (gtag.js) - Google Analytics */}
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1803821-25"></script>
                 {/* TODO: temporal implementation, change it for a better one */}

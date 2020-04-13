@@ -1,7 +1,7 @@
 import React from 'react'
 
 const BackToTop = () => (
-    <div id="backtotop">
+    <div className="visible" id="backtotop">
         <a href="#" />
     </div>
 )

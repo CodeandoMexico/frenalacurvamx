@@ -1,0 +1,33 @@
+$black:        hsl(0, 0%, 4%) !default;
+$black-bis:    hsl(0, 0%, 7%) !default;
+$black-ter:    hsl(0, 0%, 14%) !default;
+
+$grey-darker:  hsl(0, 0%, 21%) !default;
+$grey-dark:    hsl(0, 0%, 29%) !default;
+$grey:         hsl(0, 0%, 48%) !default;
+$grey-light:   hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+$grey-lightest: hsl(0, 0%, 93%) !default;
+
+$white-ter:    hsl(0, 0%, 96%) !default;
+$white-bis:    hsl(0, 0%, 98%) !default;
+$white:        hsl(0, 0%, 100%) !default;
+
+$orange:       hsl(14,  100%, 53%) !default;
+$yellow:       hsl(48,  100%, 67%) !default;
+$green:        hsl(141, 53%,  53%) !default;
+$turquoise:    hsl(171, 100%, 41%) !default;
+$cyan:         hsl(204, 71%,  53%) !default;
+$blue:         hsl(217, 71%,  53%) !default;
+$purple:       hsl(271, 100%, 71%) !default;
+$red:          #d93b49; // FLC Desing
+// $red:          #F04B56; // FLC Desing
+
+$primary: $red !default;
+$info: $cyan !default;
+$success: $green !default;
+$warning: $yellow !default;
+$danger: $red !default;
+
+// Text colors
+$text: #35363a; // FLC Desing

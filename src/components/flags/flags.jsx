@@ -1,60 +1,106 @@
 import React from 'react'
 
-import spainFlag from '../../images/icons/spain.png'
-import colombiaFlag from '../../images/icons/colombia.png'
-import mexicoFlag from '../../images/icons/mexico.png'
-import costaricaFlag from '../../images/icons/costarica.png'
-import poloniaFlag from '../../images/icons/polonia.png'
-import ecuadorFlag from '../../images/icons/ecuador.png'
-import franciaFlag from '../../images/icons/francia.png'
-import brasilFlag from '../../images/icons/brasil.png'
-import uruguayFlag from '../../images/icons/uruguay.png'
-import argentinaFlag from '../../images/icons/argentina.png'
-import peruFlag from '../../images/icons/peru.jpg'
+import './flags.scss'
+import spainFlag from '../../images/flags/Bandera_Espana.svg'
+import colombiaFlag from '../../images/flags/Bandera_Colombia.svg'
+import mexicoFlag from '../../images/flags/Bandera_Mexico.svg'
+import costaricaFlag from '../../images/flags/Bandera_CostaRica.svg'
+import poloniaFlag from '../../images/flags/Bandera_Polonia.svg'
+import ecuadorFlag from '../../images/flags/Bandera_Ecuador.svg'
+import franciaFlag from '../../images/flags/Bandera_Francia.svg'
+import brasilFlag from '../../images/flags/Bandera_Brasil.svg'
+import uruguayFlag from '../../images/flags/Bandera_Uruguay.svg'
+import argentinaFlag from '../../images/flags/Bandera_Argentina.svg'
+import peruFlag from '../../images/flags/Bandera_Peru.svg'
+import portugalFlag from  '../../images/flags/Bandera_Portugal.svg'
+
+
+const flagsItems = [
+    {
+        country: 'España',
+        url: 'https://frenalacurva.net/',
+        src: spainFlag,
+        alt: `Bandera de España`
+    },
+    {
+        country: 'Colombia',
+        url: 'https://colombia.frenalacurva.net/',
+        src: colombiaFlag,
+        alt: `Bandera de Colombia`
+    },
+    {
+        country: 'México',
+        url: 'https://mexico.frenalacurva.net/',
+        src: mexicoFlag,
+        alt: `Bandera de México`
+    },
+    {
+        country: 'Costa Rica',
+        url: 'https://costarica.frenalacurva.net/',
+        src: costaricaFlag,
+        alt: `Bandera de Costa Rica`
+    },
+    {
+        country: 'Polonia',
+        url: 'http://widzimy.online/',
+        src: poloniaFlag,
+        alt: `Bandera de Polonia`
+    },
+    {
+        country: 'Ecuador',
+        url: 'https://ecuador.frenalacurva.net',
+        src: ecuadorFlag,
+        alt: `Bandera de Ecuador`
+    },
+    {
+        country: 'Francia',
+        url: 'http://co-confines.fr/',
+        src: franciaFlag,
+        alt: `Bandera de Francia`
+    },
+    {
+        country: 'Brasil',
+        url: 'http://www.seguraaonda.com.br/',
+        src: brasilFlag,
+        alt: `Bandera de Brasil`
+    },
+    {
+        country: 'Urugay',
+        url: 'http://www.acaestamos.uy/',
+        src: uruguayFlag,
+        alt: `Bandera de Uruguay`
+    },
+    {
+        country: 'Argentina',
+        url: 'http://argentina.frenalacurva.net/',
+        src: argentinaFlag,
+        alt: `Bandera de Argentina`
+    },
+    {
+        country: 'Perú',
+        url: 'http://frenalacurva.org.pe/',
+        src: peruFlag,
+        alt: `Bandera de Perú`
+    },
+    {
+        country: 'Portugal',
+        url: 'https://achataacurva.com/',
+        src: portugalFlag,
+        alt: `Bandera de Portugal`
+    },
+]
 
 const Flags = () => (
-    <nav className="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
-        <div className="container">
-            <div className="navbar-end is-pulled-right">
-                <div className="navbar-brand navbar-flags">
-                    <p className="flags-item is-secondary">Paises actuando:</p>
-                    <a href="https://frenalacurva.net/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={spainFlag} alt="bandera de España" />
-                    </a>
-                    <a href="https://colombia.frenalacurva.net/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={colombiaFlag} alt="bandera de Colombia" />
-                    </a>
-                    <a href="https://mexico.frenalacurva.net/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={mexicoFlag} alt="bandera de México" />
-                    </a>
-                    <a href="https://costarica.frenalacurva.net/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={costaricaFlag} alt="bandera de Costa Rica" />
-                    </a>
-                    <a href="http://widzimy.online/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={poloniaFlag} alt="bandera de Polonia" />
-                    </a>
-                    <a href="https://ecuador.frenalacurva.net/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={ecuadorFlag} alt="bandera de Ecuador" />
-                    </a>
-                    <a href="http://co-confines.fr/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={franciaFlag} alt="bandera de Francia" />
-                    </a>
-                    <a href="http://www.seguraaonda.com.br/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={brasilFlag} alt="bandera de Brasil" />
-                    </a>
-                    <a href="http://www.acaestamos.uy/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={uruguayFlag} alt="bandera de Uruguay" />
-                    </a>
-                    <a href="http://argentina.frenalacurva.net/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={argentinaFlag} alt="bandera de Argentina" />
-                    </a>
-                    <a href="http://frenalacurva.org.pe/" target="_blank" className="flags-item is-secondary" rel="noopener noreferrer">
-                        <img src={peruFlag} alt="bandera de Perú" />
-                    </a>
-                </div>
-            </div>
+    <div className="container">
+        <div className="Flags">
+            <p className="Flags-item has-text-danger">Países actuando:</p>
+            {flagsItems.map(flag => (
+                <a className="Flags-item" key={flag.country} href={flag.url} title={flag.country} target="_blank" rel="noopener noreferrer">
+                    <img src={flag.src} alt={flag.alt} width={45} height={30} />
+                </a>
+            ))}
         </div>
-    </nav>
+    </div>
 )
 
 export default Flags

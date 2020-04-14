@@ -3,15 +3,13 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import Flags from './flags/flags'
-import Navbar from './navbar'
+import Navbar from './navbar/navbar'
 
 const Header = ({ siteTitle }) => (
-    <div className="container">
-        <header>
-            <Flags />
-            <Navbar />
-        </header>
-    </div>
+    <header className="Header">
+        <Flags />
+        <Navbar />
+    </header>
 )
 
 Header.propTypes = {

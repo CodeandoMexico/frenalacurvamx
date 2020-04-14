@@ -1,0 +1,86 @@
+@import '../../styles/variables';
+@import '~bulma/bulma.sass';
+
+.Navbar {
+    background-color: transparent;
+    align-items: center;
+
+    &-wrapper {
+        padding: 1rem;
+        background: $red;
+    }
+
+    &-logo {
+        width: 180px;
+        max-height: 100px !important;
+    }
+
+    .navbar-brand {
+        align-items: center;
+    }
+
+    .navbar-menu {
+        align-items: center;
+
+        .navbar-end {
+            align-items: center;
+        }
+
+        a.navbar-item {
+            border-radius: 15px;
+            padding: 0rem 15px;
+            font-size: 14px;
+            color: $white !important;
+
+            &.is-active {
+                background-color: $white !important;
+                color: $red !important;
+            }
+
+            &:hover {
+                background: $white !important;
+                box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+                color: $red !important;
+            }
+        }
+
+        .navbar-item-social {
+            display: flex;
+            align-items: center;
+
+            &-logo {
+                margin: 8px;
+                width: 20px;
+                height: auto;
+            }
+        }
+
+    }
+
+}
+
+@include touch {
+    .Navbar {
+        .navbar-menu {
+            background-color: transparent;
+
+            .navbar-item {
+                padding: .8rem !important;
+
+                &.is-active {
+                    background-color: $white;
+                    color: $red !important;
+                }
+            }
+
+            .navbar-item-social {
+                display: flex;
+                justify-content: center;
+
+                &-logo {
+                    margin: 15px 15px 0;
+                }
+            }
+        }
+    }
+}

@@ -23,23 +23,6 @@ Navbar
         height: 4rem;
     }
 
-    .navbar-flags {
-        width: 100%;
-        height: 4rem;
-        min-height: 1rem;
-        align-items: center;
-        margin: auto 0px;
-        padding: 0px 10px;
-
-        .flags-item {
-            img {
-                height: 25px;
-                width: 35px;
-                padding: 0px 2px !important;
-            }
-        }
-    }
-
     //Brand
     .navbar-brand {
         min-height: 4rem;

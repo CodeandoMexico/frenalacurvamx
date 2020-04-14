@@ -1,0 +1,29 @@
+@import '~bulma/bulma.sass';
+
+.Flags {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: .5rem 0;
+    align-items: baseline;
+
+    &-item {
+        margin: 0 4px;
+
+        img {
+            width: 45px;
+            vertical-align: middle;
+        }
+    }
+}
+
+@include mobile {
+    .Flags {
+        justify-content: space-between;
+        &-item {
+            img {
+                width: 32px;
+            }
+        }
+    }
+}

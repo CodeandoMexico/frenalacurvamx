@@ -6,7 +6,7 @@ const fbImg = require("../../images/icons/icon_footer_Facebook.svg")
 const twImg = require("../../images/icons/icon_footer_Twitter.svg")
 const igImg = require("../../images/icons/icon_footer_Instagram.svg")
 const Footer = () => (
-    <footer className="footer footer-dark fullBox diagonalBox" style={{backgroundColor:"white", fontFamily:"'Roboto', sans-serif"}}>
+    <footer className="footer footer-dark fullBox diagonalBox" style={{backgroundColor:"white", fontFamily:"'Roboto', sans-serif", color:"white"}}>
         <div className="container">
             <div className="columns">
                 <div className="column is-one-quarter">

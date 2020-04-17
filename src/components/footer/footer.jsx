@@ -8,7 +8,7 @@ const igImg = require("../../images/icons/icon_footer_Instagram.svg")
 const Footer = () => (
     <footer className="footer footer-dark fullBox diagonalBox" style={{backgroundColor:"white", fontFamily:"'Roboto', sans-serif", color:"white"}}>
         <div className="container">
-            <div className="columns">
+            <div className="columns" style={{marginTop:"70px"}}>
                 <div className="column is-one-quarter">
                     <div className="footer-logo">
                         <img style={{height:"150px", width:"150px", marginTop:"60px"}} src={logoImg} alt="logo frena la curva méxico" />

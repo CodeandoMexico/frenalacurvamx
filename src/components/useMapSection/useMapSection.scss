@@ -1,0 +1,62 @@
+.fullBox-useMap {
+    position: relative;
+  }
+  
+  .diagonalBox-useMap {
+    background: #FFF;
+    overflow: hidden;
+  }
+  
+  .diagonalBox-useMap::before, 
+  .diagonalBox-useMap::after {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+  }
+  
+  .diagonalBox-useMap::before {
+    background: #F04B56;
+    bottom: 10%;
+    transform: rotate(4deg);
+    // transform-origin: right bottom;
+  }
+.container-MapSection {
+    width:100%;
+    height: 820px;
+}
+.img-map{
+  height:18px;
+  width: 18px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.find-map-titles{
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+  margin-top: 10px;
+}
+.find-map-p{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.img-pin{
+  height:50px;
+  width: 50px;
+}
+.principal-Title{
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  color: white;
+  width: 60%;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}

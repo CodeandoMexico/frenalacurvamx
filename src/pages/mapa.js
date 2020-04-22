@@ -1,5 +1,6 @@
 import React from "react"
-
+import ModerationSection from "../components/moderationSection/moderationSection";
+import UseMapSection from "../components/useMapSection/useMapSection";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -22,24 +23,8 @@ const MapaPage = () => (
                 </div>
             </div>
         </section>
-        <section className="section mb-20 initiatives hero" style={{ background:'#F04B56' }}>
-            <div className="container">
-                <div className="has-text-centered">
-                    <a href="https://mx.mapa.frenalacurva.net/" target="_blank" rel="noopener noreferrer">
-                        <img src={mapa02} alt="mapa temporal 2" />
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section className="section mb-20 initiatives hero">
-            <div className="container">
-                <div className="has-text-centered">
-                    <a href="https://bit.ly/FLCMXvoluntario" target="_blank" rel="noopener noreferrer">
-                        <img src={mapa03} alt="mapa temporal 3" />
-                    </a>
-                </div>
-            </div>
-        </section>
+        <UseMapSection/>
+        <ModerationSection/>
     </Layout>
 )
 

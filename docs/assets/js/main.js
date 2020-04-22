@@ -31,3 +31,8 @@ app.get('/mapa', function (req, res) {
     console.log(__dirname);
     res.sendFile('mapa.html', { root: __dirname });
 });
+
+app.get('/labs', function (req, res) {
+    console.log(__dirname);
+    res.sendFile('labs.html', { root: __dirname });
+});

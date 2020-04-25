@@ -8,7 +8,7 @@ const greenPin = require("../../images/icons/Mapa_Pin-Verde.svg")
 const UseMapSection = () =>(
 <section className="container-MapSection fullBox-useMap diagonalBox-useMap">
     <div className="container" style={{color:"black",marginTop:"60px"}}>
-        <div class="columns">
+        <div class="columns" style={{marginBottom:"300px"}}>
             <div    class="column is-one-quarter" style={{padding:"40px",margin:"10px", fontFamily:"'Roboto', sans-serif", backgroundColor:"white"}}>
                 <h2 style={{fontWeight:"bold", fontSize:"24px"}}>Usa el mapa para:</h2>
                 <div className="columns" style={{marginTop:"10px", }}>

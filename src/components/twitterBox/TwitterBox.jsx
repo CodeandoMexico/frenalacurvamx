@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 
-const Twitter  = () => {
+const TwitterBox  = () => {
     useEffect(()=> {
         const scriptElement = document.createElement('script')
         scriptElement.src = 'https://platform.twitter.com/widgets.js'
@@ -34,4 +34,4 @@ const Twitter  = () => {
 }
 
 
-export default Twitter
+export default TwitterBox

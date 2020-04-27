@@ -30,7 +30,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "postbuild": "rm -fr docs/ && cp -r public/ docs/ && cp CNAME docs/CNAME",
+    "production": "npm run build && rm -fr docs/ && cp -r public/ docs/ && cp CNAME docs/CNAME",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

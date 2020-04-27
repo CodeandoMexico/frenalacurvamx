@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MediosOficiales from '../components/mediosOficiales'
 import Iniciativas from '../components/iniciativas'
-import Twitter from "../components/twitter"
+import TwitterBox from "../components/twitterBox/TwitterBox"
 import MainHero from "../components/mainHero"
 
 const IndexPage = () => (
@@ -13,7 +13,7 @@ const IndexPage = () => (
         <MainHero />
         <MediosOficiales />
         <Iniciativas />
-        <Twitter />
+        <TwitterBox />
     </Layout>
 )
 export default IndexPage

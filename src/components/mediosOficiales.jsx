@@ -11,7 +11,11 @@ const MediosOficiales = () => (
                 <h1 className="title is-1 is-bold has-text-light has-text-centered"><strong><span className="is-white">Conoce los medios oficiales en donde podrás encontrar información verificada</span></strong></h1>
                 <br />
                 <h3 className="subtitle is-white is-3 has-text-centered">Infórmate, cuídate y cuida, participa.</h3>
-                <h3 className="subtitle is-white has-text-centered">Evitemos la desinformación, los #fakenews, mitos, etc. No todo lo que nos mandan en redes sociales es verdad, ¡infórmate! y comparte noticias que informen veracidad, no que inculquen miedo. <br /><strong><span className="is-white">(Da click en la imagen para ir al sitio.)</span></strong></h3>
+                <h3 className="subtitle is-white has-text-centered">
+                    Evitemos la desinformación, los #fakenews, mitos, etc. No todo lo que nos mandan en redes sociales es verdad, ¡infórmate! y comparte noticias que informen veracidad, no que inculquen miedo.
+                    <br />    
+                    <span className="is-white has-text-weight-bold">(Da click en la imagen para ir al sitio.)</span>
+                </h3>
                 <br />
             </div>
             <div className="columns is-variable is-8">

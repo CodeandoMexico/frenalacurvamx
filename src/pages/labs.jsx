@@ -4,7 +4,9 @@ import SEO from "../components/seo"
 
 import labs01 from '../images/illustrations/FLC-MX_LandingPage_LABS_01.jpg'
 import labs02 from '../images/illustrations/FLC-MX_LandingPage_LABS_02.jpg'
-import labs03 from '../images/illustrations/FLC-MX_LandingPage_LABS_03.jpg'
+import labs03 from '../images/illustrations/FLC-MX_LandingPage_LABS_08.jpg'
+
+const ctaURL = 'https://bit.ly/labsdistribuidos-registro'
 
 const LabsPage = () => (
     <Layout>
@@ -12,7 +14,7 @@ const LabsPage = () => (
         <section className="hero is-default is-bold">
             <div className="container" style={{ padding: '50px' }}>
                 <div className="has-text-centered">
-                    <a href="https://forms.gle/RePGicQCeEanBPz67/" target="_blank" rel="noopener noreferrer">
+                    <a href={ctaURL} target="_blank" rel="noopener noreferrer">
                         <img src={labs01} alt="frena la curva temporal" />
                     </a>
                 </div>
@@ -30,7 +32,7 @@ const LabsPage = () => (
         <section className="section mb-20 initiatives hero">	
             <div className="container">
                 <div className="has-text-centered">
-                    <a href="https://forms.gle/RePGicQCeEanBPz67" target="_blank" rel="noopener noreferrer">
+                    <a href={ctaURL} target="_blank" rel="noopener noreferrer">
                         <img src={labs03} alt="frena la curva temporal" />
                     </a>
                 </div>

@@ -51,7 +51,7 @@
     "bulma-extensions": "^6.2.7",
     "express": "^4.17.1",
     "feather-icons": "^4.28.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-waypoints": "^2.0.5",
     "jquery.counterup": "^2.1.0",
     "require": "^2.4.20",

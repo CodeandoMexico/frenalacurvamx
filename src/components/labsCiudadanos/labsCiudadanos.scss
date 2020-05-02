@@ -1,0 +1,25 @@
+.fullBox-useMap {
+    position: relative;
+  }
+  
+  .diagonalBox-useMap {
+    background: #FFF;
+    overflow: hidden;
+  }
+  
+  .diagonalBox-useMap::before, 
+  .diagonalBox-useMap::after {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+  }
+  
+  .diagonalBox-useMap::before {
+    background: #F04B56;
+    bottom: 10%;
+    transform: rotate(4deg);
+    // transform-origin: right bottom;
+  }
+

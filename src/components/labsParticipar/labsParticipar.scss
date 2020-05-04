@@ -1,0 +1,17 @@
+.box-info{
+    font-family: 'Roboto', sans-serif;
+    font-size:18px ;
+    margin-top: 15px;
+    margin-bottom:40px ;
+    font-weight: bold;
+    text-align: start;
+    min-height: 325px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+@media (max-width: 600px) {
+    .box-info {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }

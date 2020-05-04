@@ -1,0 +1,29 @@
+.title-frenaLaCurva{
+    font-size: 48px;
+    font-weight: bold;
+    color:#E84652;
+}
+.buttons-mobile{
+    background-color: #35363a !important;
+    border:none;
+    margin-right: 20px;
+}
+.button-mapa-mobile{
+    border:none;
+    margin-right: 20px;
+}
+@media (max-width: 600px) {
+    .title-frenaLaCurva {
+      font-size: 28px;
+    }
+  }
+  @media (max-width: 600px) {
+    .buttons-mobile {
+      margin: 10px auto auto auto;
+    }
+  }
+  @media (max-width: 600px) {
+    .button-mapa-mobile {
+      margin: 10px auto auto auto;
+    }
+  }

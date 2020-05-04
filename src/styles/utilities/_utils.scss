@@ -1,0 +1,206 @@
+body {
+    overflow-x: hidden;
+    font-family: "Raleway";
+}
+
+//Preloader
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $white;
+    z-index: 99;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/loaders/rings.svg);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+
+//Helpers
+.initiatives {
+    padding: 50px;
+    font-family: "Raleway";
+
+    .title {
+        font-family: $font;
+        color: $blue-grey;
+    }
+
+    .subtitle {
+        font-family: "Raleway";
+    }
+
+    .is-extra-padded {
+        padding: 30px;
+    }
+
+    &.has-bg-blue-grey {
+        background-color: $dark-grey;
+    }
+}
+
+.ext-pad {
+    padding: 20px;
+}
+
+.is-disabled {
+    pointer-events: none;
+    opacity: 0.4;
+    cursor: default !important;
+}
+
+.is-hidden {
+    display: none !important;
+}
+
+.stuck {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 2 !important;
+}
+
+.light-text {
+    color: $white !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.huge-pb {
+    padding-bottom: 100px;
+}
+
+.pb-20 {
+    padding-bottom: 20px !important;
+}
+
+.pb-40 {
+    padding-bottom: 40px !important;
+}
+
+//Input placeholders
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: $placeholder;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $placeholder;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $placeholder;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: $placeholder;
+}
+
+//helpers
+.p-20 {
+    padding: 20px;
+}
+
+.hover {
+    transition: all 0.5s;
+}
+
+.hover:hover {
+    box-shadow: 0 14px 26px -12px rgba(232, 63, 78, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(232, 63, 78, 0.2) !important;
+    opacity: 0.8;
+}
+
+.maxw-125 {
+    max-width: 125px;
+}
+
+.maxw-img {
+    max-width: 150px;
+}
+
+.bg-lightpurple {
+    background-color: $lightpurple;
+}
+
+.bg-lightgreen {
+    background-color: $lightgreen;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.is-lightpurple {
+    color: $lightpurple;
+}
+
+.is-lightgreen {
+    color: $lightgreen;
+}
+
+.is-orange {
+    color: $orange;
+}
+
+.is-green {
+    color: $green;
+}
+
+.is-white {
+    color: $white !important;
+}
+
+.display-mobile {
+    display: none!important;
+}
+
+.display-desktop {
+    display: block;
+}

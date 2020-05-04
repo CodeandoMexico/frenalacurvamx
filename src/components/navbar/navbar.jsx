@@ -45,7 +45,7 @@ export default function Navbar () {
                             <Link className="navbar-item is-uppercase" activeClassName={activeClassName} to="/" onClick={toggleActive}>Inicio</Link>
                             <a className="navbar-item is-uppercase" href="https://mx.frenalacurva.net/" onClick={toggleActive} target="_blank" rel="noopener noreferrer">Foro</a>
                             <Link className="navbar-item is-uppercase" activeClassName={activeClassName} to="/mapa" onClick={toggleActive}>Mapa</Link>
-                            <Link className="navbar-item is-uppercase" activeClassName={activeClassName} to="/quienes-somos" onClick={toggleActive}>Quiénes somos</Link>
+                            {/* <Link className="navbar-item is-uppercase" activeClassName={activeClassName} to="/quienes-somos" onClick={toggleActive}>Quiénes somos</Link> */}
                             <Link className="navbar-item is-uppercase" activeClassName={activeClassName} to="/labs" onClick={toggleActive}>Labs</Link>
                             <div className="navbar-item-social">
                                 <a href="https://www.facebook.com/frenalacurvamx/" onClick={toggleActive} target="_blank" rel="noopener noreferrer" title="Visita nuestro Facebook">

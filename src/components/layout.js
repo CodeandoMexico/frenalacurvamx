@@ -35,8 +35,8 @@ const Layout = ({ children }) => {
                     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap"
                 />
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-                <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet"></link>
-                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"></link>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Spartan:wght@400;700;900&display=swap" rel="stylesheet"></link>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"></link>
                 {/* Global site tag (gtag.js) - Google Analytics */}
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1803821-25"></script>
                 {/* TODO: temporal implementation, change it for a better one */}

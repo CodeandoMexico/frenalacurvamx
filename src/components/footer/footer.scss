@@ -1,3 +1,5 @@
+/* TODO: change rules with sass nesting syntax */
+
 .fullBox {
     position: relative;
   }
@@ -22,3 +24,9 @@
     transform: rotate(5deg);
     transform-origin: top left;
   }
+
+.Footer {
+  &-navbar {
+    padding: 1rem 2rem;
+  }
+}

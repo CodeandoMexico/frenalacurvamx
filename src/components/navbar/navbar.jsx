@@ -66,7 +66,14 @@ export default function Navbar() {
               >
                 Mapa
               </Link>
-              {/* <Link className="navbar-item is-uppercase" activeClassName={activeClassName} to="/quienes-somos" onClick={toggleActive}>Quiénes somos</Link> */}
+              <Link
+                className="navbar-item is-uppercase"
+                activeClassName={activeClassName}
+                to="/quienes-somos"
+                onClick={toggleActive}
+              >
+                Quiénes somos
+              </Link>
               <Link
                 className="navbar-item is-uppercase"
                 activeClassName={activeClassName}

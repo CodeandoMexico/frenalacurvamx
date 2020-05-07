@@ -31,3 +31,12 @@ $danger: $red !default;
 
 // Text colors
 $text: #35363a; // FLC Desing
+
+$gap: 32px !default;
+$tablet: 769px !default;
+$desktop: 960px + (2 * $gap) !default;
+$widescreen: 1152px + (2 * $gap) !default;
+$fullhd: 1344px + (2 * $gap) !default;
+
+$widescreen-enabled: true !default;
+$fullhd-enabled: false !default;

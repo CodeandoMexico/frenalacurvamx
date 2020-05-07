@@ -82,33 +82,36 @@ export default function Navbar() {
               >
                 Labs
               </Link>
-              <div className="navbar-item-social">
+              <div className="navbar-item navbar-social">
                 <a
+                  className="navbar-social-link"
                   href="https://www.facebook.com/frenalacurvamx/"
                   onClick={toggleActive}
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Visita nuestro Facebook"
                 >
-                  <img className="navbar-item-social-logo" src={logoFB} alt="Facebook" />
+                  <img src={logoFB} alt="Facebook" />
                 </a>
                 <a
+                  className="navbar-social-link"
                   href="https://twitter.com/frenalacurvamx"
                   onClick={toggleActive}
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Visita nuestro Twitter"
                 >
-                  <img className="navbar-item-social-logo" src={logoTW} alt="Twitter" />
+                  <img src={logoTW} alt="Twitter" />
                 </a>
                 <a
+                  className="navbar-social-link"
                   href="https://www.instagram.com/frenalacurvamx/"
                   onClick={toggleActive}
                   target="_blank"
                   rel="noopener noreferrer"
                   title="Visita nuestro Instagram"
                 >
-                  <img className="navbar-item-social-logo" src={logoIG} alt="Instagram" />
+                  <img src={logoIG} alt="Instagram" />
                 </a>
               </div>
             </div>

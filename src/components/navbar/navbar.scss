@@ -2,90 +2,87 @@
 @import '~bulma/bulma.sass';
 
 .Navbar {
-    background-color: transparent;
+  background-color: transparent;
+  align-items: center;
+
+  &-wrapper {
+    padding: 1rem;
+    background: $red;
+  }
+
+  &-logo {
+    width: 180px;
+    max-height: 100px !important;
+  }
+
+  .navbar-brand {
+    align-items: center;
+  }
+
+  .navbar-menu {
     align-items: center;
 
-    &-wrapper {
-        padding: 1rem;
-        background: $red;
+    .navbar-end {
+      align-items: center;
     }
 
-    &-logo {
-        width: 180px;
-        max-height: 100px !important;
+    a.navbar-item {
+      border-radius: 15px;
+      margin: 0 2px;
+      padding: 0 15px;
+      font-size: 14px;
+      color: $white !important;
+      transition: all 0.1s linear;
+
+      &.is-active,
+      &:hover {
+        background-color: $white !important;
+        color: $red !important;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+      }
     }
 
-    .navbar-brand {
-        align-items: center;
-    }
+    .navbar-item-social {
+      display: flex;
+      align-items: center;
 
-    .navbar-menu {
-        align-items: center;
+      &-logo {
+        margin: 8px;
+        width: 20px;
+        height: auto;
+        transition: all 0.1s linear;
 
-        .navbar-end {
-            align-items: center;
+        &:hover {
+          filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.5));
+          transform: scale(1.05, 1.05);
         }
-
-        a.navbar-item {
-            border-radius: 15px;
-            margin: 0 2px;
-            padding: 0 15px;
-            font-size: 14px;
-            color: $white !important;
-            transition: all .1s linear;
-
-            &.is-active,
-            &:hover {
-                background-color: $white !important;
-                color: $red !important;
-                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
-            }
-        }
-
-        .navbar-item-social {
-            display: flex;
-            align-items: center;
-
-            &-logo {
-                margin: 8px;
-                width: 20px;
-                height: auto;
-                transition: all .1s linear;
-
-                &:hover {
-                    filter: drop-shadow(0 2px 2px rgba(0,0,0, 0.5));
-                    transform: scale(1.05,1.05);
-                }
-            }
-        }
-
+      }
     }
-
+  }
 }
 
 @include touch {
-    .Navbar {
-        .navbar-menu {
-            background-color: transparent;
+  .Navbar {
+    .navbar-menu {
+      background-color: transparent;
 
-            .navbar-item {
-                padding: .8rem !important;
-                
+      .navbar-item {
+        padding: 0.8rem !important;
 
-                &.is-active {
-                    background-color: $white;
-                    color: $red !important;
-                }
-            }
-
-            .navbar-item-social {
-                display: flex;
-                justify-content: center;
-
-                &-logo {
-                    margin: 15px 15px 0;
-                }
-            }
+        &.is-active {
+          background-color: $white;
+          color: $red !important;
         }
+      }
+
+      .navbar-item-social {
+        display: flex;
+        justify-content: center;
+
+        &-logo {
+          margin: 15px 15px 0;
+        }
+      }
     }
+  }
 }

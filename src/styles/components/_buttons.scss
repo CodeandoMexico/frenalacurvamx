@@ -5,129 +5,134 @@ Classes to change the feel of bulma buttons
 // CTA buttons
 
 .button {
-    cursor: pointer;
-    transition: all 0.5s;
-    
-    &:focus, &:active {
-        outline: none;
-    }
+  cursor: pointer;
+  transition: all 0.5s;
 
-    &.cta {
-        font-size: 1rem;
-        font-weight: 500;
-        height: 44px;
-    }
+  &:focus,
+  &:active {
+    outline: none;
+  }
 
-    &.is-clear {
-        line-height: 0 !important;
-    }
+  &.cta {
+    font-size: 1rem;
+    font-weight: 500;
+    height: 44px;
+  }
 
-    &.is-bold {
-        font-weight: 500;
-    }
+  &.is-clear {
+    line-height: 0 !important;
+  }
 
-    &.rounded {
-        border-radius: 500px;
-    }
+  &.is-bold {
+    font-weight: 500;
+  }
 
-    &.raised:hover {
-        box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
-        opacity: 0.8;
-    }
+  &.rounded {
+    border-radius: 500px;
+  }
 
-    &.btn-outlined {
-        background: transparent;
-    }
+  &.raised:hover {
+    box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12),
+      0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+    opacity: 0.8;
+  }
 
-    &.signup-button {
-        font-weight: 500;
-        height: 44px;
-        width: 120px;
-    }
+  &.btn-outlined {
+    background: transparent;
+  }
+
+  &.signup-button {
+    font-weight: 500;
+    height: 44px;
+    width: 120px;
+  }
 }
 
 .button {
-    &.primary-btn {
-        outline: none;
-        border-color: $primary;
+  &.primary-btn {
+    outline: none;
+    border-color: $primary;
+    background-color: $primary;
+    color: $white;
+    transition: all 0.5s;
+
+    &:hover {
+      color: $white;
+    }
+
+    &.raised:hover {
+      box-shadow: 0 14px 26px -12px rgba($primary, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba($primary, 0.2) !important;
+      opacity: 0.8;
+    }
+
+    &.btn-outlined {
+      border-color: $primary;
+      color: $primary;
+      background-color: transparent;
+
+      &:hover {
+        color: $white;
         background-color: $primary;
-        color: $white;
-        transition: all 0.5s;
+      }
+    }
+  }
 
-        &:hover {
-            color: $white;
-        }
+  &.secondary-btn {
+    outline: none;
+    border-color: $secondary;
+    background-color: $secondary;
+    color: $white;
+    transition: all 0.5s;
 
-        &.raised:hover {
-            box-shadow: 0 14px 26px -12px rgba($primary, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba($primary, 0.2) !important;
-            opacity: 0.8;
-        }
-
-        &.btn-outlined {
-            border-color: $primary;
-            color: $primary;
-            background-color: transparent;
-
-            &:hover {
-                color: $white;
-                background-color: $primary;
-            }
-        }
+    &:hover {
+      color: $white;
     }
 
-    &.secondary-btn {
-        outline: none;
-        border-color: $secondary;
+    &.raised:hover {
+      box-shadow: 0 14px 26px -12px rgba($secondary, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba($secondary, 0.2) !important;
+      opacity: 0.8;
+    }
+
+    &.btn-outlined {
+      border-color: $secondary;
+      color: $secondary;
+      background-color: transparent;
+
+      &:hover {
+        color: $white;
         background-color: $secondary;
-        color: $white;
-        transition: all 0.5s;
+      }
+    }
+  }
 
-        &:hover {
-            color: $white;
-        }
+  &.button.accent-btn {
+    outline: none;
+    border-color: $accent;
+    background-color: $accent;
+    color: $white;
+    transition: all 0.5s;
 
-        &.raised:hover {
-            box-shadow: 0 14px 26px -12px rgba($secondary, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba($secondary, 0.2) !important;
-            opacity: 0.8;
-        }
-
-        &.btn-outlined {
-            border-color: $secondary;
-            color: $secondary;
-            background-color: transparent;
-
-            &:hover {
-                color: $white;
-                background-color: $secondary;
-            }
-        }
+    &:hover {
+      color: $white;
     }
 
-    &.button.accent-btn {
-        outline: none;
-        border-color: $accent;
+    &.raised:hover {
+      box-shadow: 0 14px 26px -12px rgba($accent, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba($accent, 0.2) !important;
+      opacity: 0.8;
+    }
+
+    &.btn-outlined {
+      border-color: $accent;
+      color: $accent;
+      background-color: transparent;
+
+      &:hover {
+        color: $white;
         background-color: $accent;
-        color: $white;
-        transition: all 0.5s;
-
-        &:hover {
-            color: $white;
-        }
-
-        &.raised:hover {
-            box-shadow: 0 14px 26px -12px rgba($accent, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba($accent, 0.2) !important;
-            opacity: 0.8;
-        }
-
-        &.btn-outlined {
-            border-color: $accent;
-            color: $accent;
-            background-color: transparent;
-
-            &:hover {
-                color: $white;
-                background-color: $accent;
-            }
-        }
+      }
     }
+  }
 }

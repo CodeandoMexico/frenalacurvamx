@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import "variables";
-@import "~bulma/bulma.sass";
+@import 'variables';
+@import '~bulma/bulma.sass';
 
 /* ==========================================================================
 Main SCSS file / Fresh
@@ -14,8 +14,8 @@ Main SCSS file / Fresh
 @import 'utilities/utils';
 @import 'layout/responsive';
 
-$slick-font-path: "/assets/fonts/";
-$slick-loader-path: "/assets/fonts/";
+$slick-font-path: '/assets/fonts/';
+$slick-loader-path: '/assets/fonts/';
 
 // @import "../../../node_modules/slick-carousel/slick/slick.scss";
 // @import "../../../node_modules/slick-carousel/slick/slick-theme.scss";

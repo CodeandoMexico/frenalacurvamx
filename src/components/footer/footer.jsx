@@ -1,15 +1,13 @@
 import React from 'react'
+import SocialBox from '../socialBox/socialBox'
 import './footer.scss'
 
 import logoImg from '../../images/logos/logo_footer.svg'
-import fbImg from '../../images/icons/icon_footer_Facebook.svg'
-import twImg from '../../images/icons/icon_footer_Twitter.svg'
-import igImg from '../../images/icons/icon_footer_Instagram.svg'
 
 const Footer = () => (
   <footer
     className="footer footer-dark fullBox diagonalBox has-text-white"
-    // TODO: Move this rules to a better implementation
+    // TODO: Move these rules into a better implementation
     style={{
       backgroundColor: 'white',
       fontFamily: "'Roboto', sans-serif",
@@ -33,15 +31,7 @@ const Footer = () => (
         <div style={{ marginTop: 'auto' }} className="column is-two-fifths">
           <div className="footer-column">
             <div className="footer-header">
-              <h3
-                style={{
-                  fontSize: '24px',
-                  fontWeight: 'bold',
-                  marginBottom: '2px',
-                }}
-              >
-                mexico.frenalacurva.net
-              </h3>
+              <h3 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '2px' }}>mexico.frenalacurva.net</h3>
             </div>
             <p style={{ fontSize: '14px' }}>
               Mexico.FrenaLaCurva.net una red de apoyo de personas voluntarias que conecta esfuerzos de y acciones
@@ -51,7 +41,6 @@ const Footer = () => (
               </a>{' '}
               que está bajo una{' '}
               <a className="has-text-white has-text-weight-bold" href="http://creativecommons.org/licenses/by/2.0/es/">
-                {' '}
                 licencia de Creative Commons Reconocimiento 2.0 España
               </a>
               .
@@ -61,23 +50,9 @@ const Footer = () => (
         <div style={{ marginTop: 'auto' }} className="column">
           <div className="footer-column level-right">
             <div className="footer-header">
-              <nav className="level is-mobile">
-                <div className="level-left">
-                  <a className="level-item" href="https://www.facebook.com/frenalacurvamx/">
-                    <span className="icon">
-                      <img src={fbImg} width="20" alt="logo facebook" />
-                    </span>
-                  </a>
-                  <a className="level-item" href="https://twitter.com/frenalacurvamx">
-                    <span className="icon">
-                      <img src={twImg} width="20" alt="logo twitter" />
-                    </span>
-                  </a>
-                  <a className="level-item" href="https://www.instagram.com/frenalacurvamx/">
-                    <span className="icon">
-                      <img src={igImg} width="20" alt="logo instagram" />
-                    </span>
-                  </a>
+              <nav className="level">
+                <div className="level-right">
+                  <SocialBox className="level-item" />
                 </div>
               </nav>
             </div>

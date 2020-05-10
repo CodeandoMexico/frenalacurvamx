@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
 
+import SocialBox from '../socialBox/socialBox'
 import './navbar.scss'
 import FLCLogo from '../../images/logos/FLC-MX_Logo_Horizontal.svg'
-import logoFB from '../../images/logos/FLC-MX_Facebook.svg'
-import logoIG from '../../images/logos/FLC-MX_Instagram.svg'
-import logoTW from '../../images/logos/FLC-MX_Twitter.svg'
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false)
@@ -21,7 +19,7 @@ export default function Navbar() {
   return (
     <div className="Navbar-wrapper">
       <div className="container">
-        <nav className="navbar is-transparent Navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar Navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
               <img className="Navbar-logo" src={FLCLogo} alt="Logotipo de Frena la curva México" />
@@ -82,38 +80,7 @@ export default function Navbar() {
               >
                 Labs
               </Link>
-              <div className="navbar-item navbar-social">
-                <a
-                  className="navbar-social-link"
-                  href="https://www.facebook.com/frenalacurvamx/"
-                  onClick={toggleActive}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Visita nuestro Facebook"
-                >
-                  <img src={logoFB} alt="Facebook" />
-                </a>
-                <a
-                  className="navbar-social-link"
-                  href="https://twitter.com/frenalacurvamx"
-                  onClick={toggleActive}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Visita nuestro Twitter"
-                >
-                  <img src={logoTW} alt="Twitter" />
-                </a>
-                <a
-                  className="navbar-social-link"
-                  href="https://www.instagram.com/frenalacurvamx/"
-                  onClick={toggleActive}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Visita nuestro Instagram"
-                >
-                  <img src={logoIG} alt="Instagram" />
-                </a>
-              </div>
+              <SocialBox className="navbar-item" onClick={toggleActive} />
             </div>
           </div>
         </nav>

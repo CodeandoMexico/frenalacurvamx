@@ -58,6 +58,11 @@
           color: $red !important;
         }
       }
+
+      .SocialBox {
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 }

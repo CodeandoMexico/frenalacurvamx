@@ -5,6 +5,12 @@ module.exports = {
     author: `Codeando México`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trakingId: `UA-163168776-1`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

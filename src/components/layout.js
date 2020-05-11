@@ -43,15 +43,6 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
           rel="stylesheet"
         ></link>
-        {/* Global site tag (gtag.js) - Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1803821-25"></script>
-        {/* TODO: temporal implementation, change it for a better one */}
-        <script>{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-1803821-25');
-        `}</script>
         <script>{`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

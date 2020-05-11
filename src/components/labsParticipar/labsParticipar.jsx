@@ -15,7 +15,7 @@ const Participar = () => (
                 </div>
                 <div className="column">
                     <div className="box-info">Súmate como colaborador:<div style={{fontWeight:"normal", textAlign:"start"}}>Los promotores son todos aquellas personas miembros de la sociedad que viven y observan una problemática y a quienes se les ocurre una solución posible. Para pasar de la imaginación a la realidad ellas y ellos ven la necesidad de tener un proyecto abierto a la colaboración de otras personas.</div> </div>
-                    <a href="https://bit.ly/labsdistribuidos-colaboradores" target="blank"><button className="button cta is-rounded primary-btn raised">QUIERO UNIRME</button></a>
+                    {/* <a href="https://bit.ly/labsdistribuidos-colaboradores" target="blank"><button className="button cta is-rounded primary-btn raised">QUIERO UNIRME</button></a> */}
                 </div>
             </div>
         </div>

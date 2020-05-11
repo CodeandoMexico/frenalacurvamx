@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import "variables";
-@import "~bulma/bulma.sass";
+@import 'variables';
+@import '~bulma/bulma.sass';
 
 /* ==========================================================================
 Main SCSS file / Fresh
@@ -14,8 +14,32 @@ Main SCSS file / Fresh
 @import 'utilities/utils';
 @import 'layout/responsive';
 
-$slick-font-path: "/assets/fonts/";
-$slick-loader-path: "/assets/fonts/";
+$slick-font-path: '/assets/fonts/';
+$slick-loader-path: '/assets/fonts/';
 
 // @import "../../../node_modules/slick-carousel/slick/slick.scss";
 // @import "../../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+.readable {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.list-circle-arrow {
+  margin: 0 !important;
+
+  li {
+    list-style: none;
+    background-image: url('../images/icons/arrow-white.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 0.25rem;
+    background-size: 1em;
+    padding-left: 1.5em;
+    min-height: 1.5rem;
+  }
+
+  &--red li {
+    background-image: url('../images/icons/arrow.svg');
+  }
+}

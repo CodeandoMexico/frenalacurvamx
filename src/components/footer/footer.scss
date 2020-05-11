@@ -1,29 +1,29 @@
-/* TODO: change rules with sass nesting syntax */
+// TODO: change rules with sass nesting syntax
 
 .fullBox {
-    position: relative;
-  }
-  
-  .diagonalBox {
-    background: #FFF;
-    overflow: hidden;
-  }
-  
-  .diagonalBox::before, 
-  .diagonalBox::after {
-    content: '';
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    left: 0;
-  }
-  
-  .diagonalBox::before {
-    background: #F04B56;
-    top: 10%;
-    transform: rotate(5deg);
-    transform-origin: top left;
-  }
+  position: relative;
+}
+
+.diagonalBox {
+  background: #fff;
+  overflow: hidden;
+}
+
+.diagonalBox::before,
+.diagonalBox::after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: 0;
+}
+
+.diagonalBox::before {
+  background: #f04b56;
+  top: 10%;
+  transform: rotate(5deg);
+  transform-origin: top left;
+}
 
 .Footer {
   &-navbar {

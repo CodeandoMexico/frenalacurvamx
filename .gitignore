@@ -43,9 +43,6 @@ Temporary Items
 ### Node modules ###
 node_modules/
 
-### Edito files ###
-.editorconfig
-
 ### Custom Files ###
 dist/
 accessibility-reports/

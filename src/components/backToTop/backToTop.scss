@@ -1,49 +1,49 @@
 @import '../../styles/variables';
 
 #backtotop {
-    position: fixed;
-    right: 0;
-    opacity: 0;
-    visibility: hidden;
-    bottom: 25px;
-    margin: 0 25px 0 0;
-    z-index: 9999;
-    transition: 0.35s;
-    transform: scale(0.7);
-    transition: all 0.5s;
-    &.visible {
-        opacity: 1;
-        visibility: visible;
-        transform: scale(1);
-        a {
-            outline: none;
-            text-decoration: none;
-            border: 0 none;
-            display: block;
-            width: 46px;
-            height: 46px;
-            background-color: $grey;
-            color: $white;
-            opacity: 1;
-            transition: all 0.3s;
-            border-radius: 50%;
-            text-align: center;
-            font-size: 26px;
-            &:after {
-                outline: none;
-                content: "\e316";
-                font-family: "Material Icons";
-                position: relative;
-                display: block;
-                top: 52%;
-                -webkit-transform: translateY(-55%);
-                transform: translateY(-55%);
-            }
-            &:hover {
-                outline: none;
-                opacity: 0.9;
-                background: $primary;
-            }
-        }
+  position: fixed;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  bottom: 25px;
+  margin: 0 25px 0 0;
+  z-index: 9999;
+  transition: 0.35s;
+  transform: scale(0.7);
+  transition: all 0.5s;
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    a {
+      outline: none;
+      text-decoration: none;
+      border: 0 none;
+      display: block;
+      width: 46px;
+      height: 46px;
+      background-color: $grey;
+      color: $white;
+      opacity: 1;
+      transition: all 0.3s;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 26px;
+      &:after {
+        outline: none;
+        content: '\e316';
+        font-family: 'Material Icons';
+        position: relative;
+        display: block;
+        top: 52%;
+        -webkit-transform: translateY(-55%);
+        transform: translateY(-55%);
+      }
+      &:hover {
+        outline: none;
+        opacity: 0.9;
+        background: $primary;
+      }
     }
+  }
 }

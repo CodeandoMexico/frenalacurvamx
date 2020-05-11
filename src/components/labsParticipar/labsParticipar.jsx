@@ -38,9 +38,9 @@ const Participar = () => (
               la necesidad de tener un proyecto abierto a la colaboración de otras personas.
             </div>{' '}
           </div>
-          <a href="https://bit.ly/labsdistribuidos-colaboradores" target="blank">
+          {/* <a href="https://bit.ly/labsdistribuidos-colaboradores" target="blank">
             <button className="button cta is-rounded primary-btn raised">QUIERO UNIRME</button>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

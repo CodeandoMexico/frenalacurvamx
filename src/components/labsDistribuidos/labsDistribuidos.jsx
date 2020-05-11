@@ -14,11 +14,11 @@ const labsDistribuidos = () => (
             Convocamos a personas que quieran colaborar y experimentar nuevas posibilidades de ayuda en tiempos del
             COVID-19.
           </h4>
-          <a href="https://bit.ly/labsdistribuidos-colaboradores" target="blank">
+          {/* <a href="https://bit.ly/labsdistribuidos-colaboradores" target="blank">
             <button style={{ marginTop: '30px' }} className="button cta is-rounded primary-btn raised">
               QUIERO UNIRME
             </button>
-          </a>
+          </a> */}
           {/* <div style={{display:"flex", marginTop:"30px"}}>
                         <a href="https://mx.mapa.frenalacurva.net/" target="blank"><button className="button-mapa-mobile column button cta is-rounded primary-btn raised">IR AL LAB</button></a>
                         <a href="#" target="blank"><button className="buttons-mobile column button cta is-rounded primary-btn raised">VER TUTORIAL</button></a>

@@ -106,7 +106,7 @@ const QuienesSomos = () => (
                 personas voluntarias en el mapa, si lo desean.
               </li>
               <li>
-                Si tienes más dudas puedes escribirnos a
+                Si tienes más dudas puedes escribirnos a{' '}
                 <a href="mailto:frenalacurvamx@gmail.com">frenalacurvamx@gmail.com</a>
               </li>
             </ul>

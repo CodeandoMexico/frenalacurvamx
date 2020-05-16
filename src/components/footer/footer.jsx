@@ -71,6 +71,9 @@ const Footer = () => (
           <a className="has-text-white level-item" href="/mapa">
             MAPA
           </a>
+          <a className="has-text-white level-item" href="/labs">
+            LABS
+          </a>
         </div>
         <div className="level-right">
           <a className="has-text-white level-item" href="https://www.facebook.com/frenalacurvamx/">

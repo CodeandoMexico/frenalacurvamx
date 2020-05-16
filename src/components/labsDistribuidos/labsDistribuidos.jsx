@@ -5,7 +5,7 @@ const labsDistribuidos = () => (
   <section>
     <div style={{ fontFamily: "'Spartan', sans-serif", marginTop: '65px', marginBottom: '60px' }} className="container">
       <div style={{ padding: '100px', paddingTop: '15px' }} className="columns">
-        <div style={{ padding: '50px', paddingTop: '100px', paddingLeft: '100px' }} className="column is-two-thirds">
+        <div className="column is-two-thirds pad-title">
           <h1 className="title-LabsDistribuidos">#LabsDistribuidos</h1>
           <h4 style={{ fontSize: '24px', fontWeight: 'bold', color: '#E84652' }}>
             Aporta ideas, suma tu creatividad y energía.{' '}

@@ -2,16 +2,30 @@
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   margin-top: 15px;
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
   font-weight: bold;
   text-align: start;
   min-height: 325px;
-  padding-right: 40px;
-  padding-left: 40px;
+  text-align: center;
+  // padding-right: 40px;
+  // padding-left: 40px;
+}
+.box-description {
+  font-weight: normal;
+  text-align: center;
+  height: 370px;
+}
+.box-description-large {
+  font-weight: normal;
+  text-align: center;
+  height: 500px;
 }
 @media (max-width: 600px) {
   .box-info {
     padding-left: 0;
     padding-right: 0;
   }
+}
+.column {
+  padding-right: 40px !important;
 }

@@ -1,0 +1,40 @@
+.cardContainer {
+  page-break-inside: avoid;
+  margin: 0px 30px 30px 30px !important;
+}
+
+.catContainer {
+  display: flex;
+}
+
+.categories {
+  width: 50%;
+  contain: content;
+  height: 25px;
+  background: #4f7aea;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.subCategories {
+  width: 50%;
+  contain: content;
+  height: 25px;
+  background-color: #1fa4ce;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 20px;
+  height: 150px;
+  contain: content;
+}
+
+.btnContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}

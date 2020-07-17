@@ -52,7 +52,7 @@
   "scripts": {
     "build": "gatsby build",
     "buildFrena": "npm run build && xcopy \"public\" \"docs\" /E/H",
-    "production": "npm run build && rm -fr docs/ && cp -r public/ docs/",
+    "production": "npm run build && rm -fr docs/ && cp -r public/ docs/ && cp CNAME docs/CNAME",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
     "lint": "eslint src/**/*.{js,jsx} --cache --fix",

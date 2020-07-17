@@ -16,6 +16,9 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "airtable": "^0.8.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
     "bulma": "^0.8.2",
     "classnames": "^2.2.6",
     "gatsby": "^2.20.35",
@@ -31,8 +34,11 @@
     "node-sass": "^4.14.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.10.0",
+    "reactstrap": "^8.4.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -45,7 +51,8 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "production": "npm run build && rm -fr docs/ && cp -r public/ docs/ && cp CNAME docs/CNAME",
+    "buildFrena": "npm run build && xcopy \"public\" \"docs\" /E/H",
+    "production": "npm run build && rm -fr docs/ && cp -r public/ docs/",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
     "lint": "eslint src/**/*.{js,jsx} --cache --fix",

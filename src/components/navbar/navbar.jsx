@@ -47,15 +47,14 @@ export default function Navbar() {
               >
                 Inicio
               </Link>
-              <a
+              <Link
                 className="navbar-item is-uppercase"
-                href="https://mx.frenalacurva.net/"
                 onClick={toggleActive}
-                target="_blank"
-                rel="noopener noreferrer"
+                activeClassName={activeClassName}
+                to="/foro"
               >
                 Foro
-              </a>
+              </Link>
               <Link
                 className="navbar-item is-uppercase"
                 activeClassName={activeClassName}

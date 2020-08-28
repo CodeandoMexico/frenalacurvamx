@@ -5,7 +5,7 @@ const ColaboraInfo = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col md={8}>
           <div style={{ marginBottom: '38px', marginTop: '125px' }}>
             <h2
               style={{ fontFamily: "'Raleway', sans-serif", textAlign: 'start', fontSize: '50px', fontWeight: 'bold' }}
@@ -18,7 +18,7 @@ const ColaboraInfo = () => {
           </div>
           <div style={{ fontSize: '18px', textAlign: 'start', marginBottom: '23px' }}>
             <h4>
-              ¿Quiéres dar una clase online?, ¿compartir el directorio de negocios locales?, ¿formar parte de un grupo
+              ¿Quieres dar una clase online?, ¿compartir el directorio de negocios locales?, ¿formar parte de un grupo
               creativo para enfrentar la contingencia? Aquí las personas publican recursos, ideas y proyectos para tejer
               una red ciudadana.
             </h4>
@@ -39,7 +39,7 @@ const ColaboraInfo = () => {
           </a>
         </Col>
         <Col>
-          <img style={{ marginTop: '100px', marginLeft: '50px' }} src={ForoComunidad} />
+          <img style={{ marginTop: '100px', marginLeft: '70px' }} src={ForoComunidad} />
         </Col>
       </Row>
     </Container>

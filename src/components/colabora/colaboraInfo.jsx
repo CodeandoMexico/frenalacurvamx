@@ -23,10 +23,9 @@ const ColaboraInfo = () => {
               una red ciudadana.
             </h4>
             <h4>
-              Somos{' '}
               <div>
-                <span style={{ color: 'red', fontWeight: 'bold' }}>432</span> personas que hemos subido{' '}
-                <span style={{ color: 'red', fontWeight: 'bold' }}>216</span> publicaciones{' '}
+                Somos <span style={{ color: 'red', fontWeight: 'bold' }}>432</span> personas que hemos subido{' '}
+                <span style={{ color: 'red', fontWeight: 'bold' }}>302</span> publicaciones.{' '}
               </div>
             </h4>
           </div>

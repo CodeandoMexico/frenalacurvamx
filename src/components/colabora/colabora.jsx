@@ -243,8 +243,8 @@ const Colabora = () => {
   }
   return (
     <div>
-      <div style={{ display: 'flex', justifyContent: 'center', margin: '40px' }}>
-        <h4 style={{ fontSize: '23px', paddingRight: '50px', fontWeight: 'bold' }}>Filtrar Por:</h4>
+      <div style={{ display: 'flex', justifyContent: 'center', margin: '40px', paddingLeft: '8px' }}>
+        <h5 style={{ fontSize: '23px', paddingRight: '10px', fontWeight: 'bold' }}>Filtrar por:</h5>
         <Dropdown style={{ paddingRight: '20px' }}>
           <Dropdown.Toggle style={{ backgroundColor: '#C4C4C4', color: 'black', border: 'none' }} id="dropdown-basic">
             [Categoría]

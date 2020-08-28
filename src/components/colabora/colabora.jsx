@@ -80,7 +80,10 @@ const RenderCard = data => {
             >
               <div className="btnContainer">
                 <img style={{ height: '30px', margin: 'auto', marginRight: '5px' }} src={heart} />
-                <Button style={{ backgroundColor: '#FB4747', borderRadius: '60px' }} variant="primary">
+                <Button
+                  style={{ backgroundColor: '#FB4747', borderColor: '#FB4747', borderRadius: '60px' }}
+                  variant="primary"
+                >
                   <FiArrowRight style={{ margin: 'auto' }} size="1.5em" />
                 </Button>
               </div>
@@ -397,7 +400,7 @@ const Colabora = () => {
                 </Dropdown.Item>
               </div>
             ) : null}
-            {/*         
+            {/*
 
             <Dropdown.Item onClick={() => FilterData('Educación a distancia', 'SUBCATEGORIA')}>
               Educación a distancia

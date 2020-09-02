@@ -26,7 +26,11 @@ const RenderCard = data => {
     <Container className="cardContainer">
       {data.data.fields.VERIFICADA === true ? (
         <Card style={{ width: '20rem', height: 'auto' }}>
-          <Card.Img style={{ height: '272px', width: '272px' }} variant="top" src={data.data.fields.IMAGEN[0].url} />
+          <Card.Img
+            style={{ width: '100%', position: 'relative', overflow: 'hidden' }}
+            variant="top"
+            src={data.data.fields.IMAGEN[0].url}
+          />
           <Card.Body>
             <Card.Title style={{ fontWeight: 'bold' }}>{data.data.fields.TITULO}</Card.Title>
             <div className="catContainer">

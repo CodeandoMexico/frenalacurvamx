@@ -50,17 +50,29 @@ const RenderCard = data => {
                 {data.data.fields.CATEGORIA}...
               </div>
               {cate === 'Cuidados, ayuda y bienestar' ? (
-                <div className="subCategories">{data.data.fields.SUBCATEGORIA_CUIDADOS}...</div>
+                <div className="subCategories" style={{ backgroundColor: '#CB82EB' }}>
+                  {data.data.fields.SUBCATEGORIA_CUIDADOS}...
+                </div>
               ) : cate === 'Educación a distancia y recursos educativos' ? (
-                <div className="subCategories">{data.data.fields.SUBCATEGORIA_EDUCACION}...</div>
+                <div className="subCategories" style={{ backgroundColor: '#ED794A' }}>
+                  {data.data.fields.SUBCATEGORIA_EDUCACION}...
+                </div>
               ) : cate === 'Información Oficial' ? (
-                <div className="subCategories">{data.data.fields.SUBCATEGORIA_OFICIAL}...</div>
+                <div className="subCategories" style={{ backgroundColor: '#5C92D2' }}>
+                  {data.data.fields.SUBCATEGORIA_OFICIAL}...
+                </div>
               ) : cate === 'Información verificada' ? (
-                <div className="subCategories">{data.data.fields.SUBCATEGORIA_VERIFICADO}...</div>
+                <div className="subCategories" style={{ backgroundColor: '#74BCEB' }}>
+                  {data.data.fields.SUBCATEGORIA_VERIFICADO}...
+                </div>
               ) : cate === 'Ocio y recreación durante la cuarentena' ? (
-                <div className="subCategories">{data.data.fields.SUBCATEGORIA_OCIO}...</div>
+                <div className="subCategories" style={{ backgroundColor: '#56B69C' }}>
+                  {data.data.fields.SUBCATEGORIA_OCIO}...
+                </div>
               ) : (
-                <div className="subCategories">{data.data.fields.SUBCATEGORIA_OPORTUNIDADES}...</div>
+                <div className="subCategories" style={{ backgroundColor: '#7ACA9C' }}>
+                  {data.data.fields.SUBCATEGORIA_OPORTUNIDADES}...
+                </div>
               )}
             </div>
             <Card.Text className="description">{data.data.fields.DESCRIPCION}</Card.Text>

@@ -29,7 +29,7 @@ const ColaboraInfo = () => {
               </div>
             </h4>
           </div>
-          <a href="https://admin.typeform.com/login/" target="blank">
+          <a href="https://frenalacurvamx.typeform.com/to/gYdVBR" target="blank">
             <button
               style={{ textAlign: 'start', paddingLeft: '40px', fontSize: '16px', height: '44px' }}
               className=" column button cta is-rounded primary-btn raised"

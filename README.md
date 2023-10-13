@@ -33,7 +33,7 @@ Para utilizar esta plantilla, tu computadora necesita:
 
 ### Desarrollo con Docker
 
-Para hacer y probar cambios locales en el contenido, estilos, imagenes, etc. puedes usar un contenedor docker.
+Para hacer y probar cambios locales en el contenido, estilos, imágenes, etc. puedes usar un contenedor docker.
 
 - `docker build . -t frenalacurva:dev`
 - `docker run --rm -it --init -p 3000:3000 -v $PWD/src/:/app/src frenalacurva:dev`
@@ -44,13 +44,13 @@ Para hacer y probar cambios locales en el contenido, estilos, imagenes, etc. pue
 - `docker-compose up`
 - Tu sitio está visible en el URL: http://localhost:3000
 
-> Si necesitas cambiar algun archivo fuera de `./src` solo vuelve a ejectuar ambos comandos.
+> Si necesitas cambiar algún archivo fuera de `./src` solo vuelve a ejectuar ambos comandos.
 
 ### Deployment en gh-pages:
 
-- Una vez hayas concluido el desarrollo, deberás cambiar la carpeta `dist/` que se generó por `docs/`: <br>
+- Una vez hayas concluído el desarrollo, deberás cambiar la carpeta `dist/` que se generó por `docs/`: <br>
   `mv dist/ docs/`
-- Haz un push de tus cambios al repositori
+- Haz un push de tus cambios al repositorio
 - En la sección de settings de tu repositorio, ve a la opción de GitHub Pages y selección como Source la carpeta `docs/`
 - ¡Listo! Tu landing quedará servida en `<usario-u-organizacio>.github.io/<repositorio>`
 
